@@ -1,0 +1,130 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Elegant Earring",
+      "image": "/img/takılar/takı1.jpg",
+      "description": "Beautiful elegant earrings with diamonds",
+      "category": "earring"
+    },
+    {
+      "id": 2,
+      "name": "Gold Necklace",
+      "image": "/img/takılar/takı2.jpg",
+      "description": "18k gold necklace with precious stones",
+      "category": "necklace"
+    },
+    {
+      "id": 3,
+      "name": "Pearl Necklace",
+      "image": "/img/takılar/takı3.jpg",
+      "description": "Classic pearl necklace",
+      "category": "necklace"
+    },
+    {
+      "id": 4,
+      "name": "Diamond Necklace",
+      "image": "/img/takılar/takı4.jpg",
+      "description": "Luxury diamond necklace",
+      "category": "necklace"
+    },
+    {
+      "id": 5,
+      "name": "Silver Watch",
+      "image": "/img/takılar/takı5.jpg",
+      "description": "925 silver watch with zircon",
+      "category": "watch"
+    },
+    {
+      "id": 6,
+      "name": "Gold Earrings",
+      "image": "/img/takılar/takı6.jpeg",
+      "description": "Complete gold earrings",
+      "category": "earring"
+    },
+    {
+      "id": 7,
+      "name": "Gold Necklace",
+      "image": "/img/takılar/takı7.png",
+      "description": "Complete gold necklace",
+      "category": "necklace"
+    },
+    {
+      "id": 8,
+      "name": "Gold Ring",
+      "image": "/img/takılar/takı8.png",
+      "description": "Complete gold ring",
+      "category": "ring"
+    },
+    {
+      "id": 9,
+      "name": "Gold Necklace",
+      "image": "/img/takılar/takı9.png",
+      "description": "Complete gold necklace",
+      "category": "necklace"
+    },
+    {
+      "id": 10,
+      "name": "Gold Necklace",
+      "image": "/img/takılar/takı10.jpg",
+      "description": "Complete gold necklace",
+      "category": "necklace"
+    },
+    {
+      "id": 11,
+      "name": "Gold Crown",
+      "image": "/img/takılar/takı11.jpg",
+      "description": "Complete gold crown",
+      "category": "crown"
+    },
+    {
+      "id": 12,
+      "name": "Gold Ring",
+      "image": "/img/takılar/takı12.jpg",
+      "description": "Complete gold ring",
+      "category": "ring"
+    },
+    {
+      "id": 13,
+      "name": "Gold Earrings",
+      "image": "/img/takılar/takı13.jpg",
+      "description": "Complete gold earrings",
+      "category": "earring"
+    },
+    {
+      "id": 14,
+      "name": "Gold Bracelet",
+      "image": "/img/takılar/takı14.jpg",
+      "description": "Complete gold bracelet",
+      "category": "bracelet"
+    },
+    {
+      "id": 15,
+      "name": "Gold Bracelet",
+      "image": "/img/takılar/takı15.jpg",
+      "description": "Complete gold bracelet",
+      "category": "bracelet"
+    },
+    {
+      "id": 16,
+      "name": "Gold Set",
+      "image": "/img/takılar/takı16.jpg",
+      "description": "Complete gold jewelry set",
+      "category": "set"
+    },
+    {
+      "id": 17,
+      "name": "Gold Set",
+      "image": "/img/takılar/takı17.jpg",
+      "description": "Complete gold jewelry set",
+      "category": "set"
+    },    
+    {
+      "id": 18,
+      "name": "Gold Earrings",
+      "image": "/img/takılar/takı18.jpg",
+      "description": "Complete gold earrings",
+      "category": "earring"
+    }
+  ]
+} 

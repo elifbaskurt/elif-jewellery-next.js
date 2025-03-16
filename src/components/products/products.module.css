@@ -1,0 +1,128 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 20px 60px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.title {
+    max-width: 1000px;
+    margin-bottom: 60px;
+}
+
+.title h1 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #111;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 1.4;
+}
+
+.title p {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.item {
+    position: relative;
+    aspect-ratio: 1;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.item:hover img {
+    transform: scale(1.08);
+}
+
+.action {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.item:hover .action {
+    opacity: 1;
+}
+
+.action a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    background: transparent;
+}
+
+.action a:hover {
+    background: #fff;
+    color: #000;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 1200px) {
+    .section {
+        padding: 100px 16px 40px;
+    }
+
+    .title {
+        padding: 0 20px;
+    }
+
+    .title h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 80px 12px 30px;
+    }
+
+    .title h1 {
+        font-size: 28px;
+    }
+
+    .title p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .portfolio {
+        gap: 20px;
+        padding: 0 12px;
+    }
+} 

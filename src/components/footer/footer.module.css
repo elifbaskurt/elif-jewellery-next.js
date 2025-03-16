@@ -1,0 +1,197 @@
+.footer {
+    background: linear-gradient(170deg, #212A39, #181E28);
+    margin-top: 50px;
+    width: 100%;
+    padding: 60px 0 30px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.footerNav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footerNav nav h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    position: relative;
+    display: inline-block;
+}
+
+.footerNav nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footerNav nav ul li {
+    margin-bottom: 12px;
+}
+
+.footerNav nav ul li:last-child {
+    margin-bottom: 0;
+}
+
+.footerNav nav ul li a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 4px 0;
+}
+
+.footerNav nav ul li a:hover {
+    color: #fff;
+    transform: translateX(5px);
+}
+
+.footerNav nav ul li a img {
+    width: 18px;
+    height: 18px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.footerNav nav ul li a:hover img {
+    opacity: 1;
+}
+
+.search {
+    max-width: 300px;
+}
+
+.search h6 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.search form {
+    display: flex;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 8px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.search form:focus-within {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 0 2px rgba(49, 106, 255, 0.3);
+}
+
+.search input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    padding: 8px 12px;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+}
+
+.search input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.search button {
+    background: transparent;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.search button:hover {
+    transform: scale(1.1);
+}
+
+.search button img {
+    width: 20px;
+    height: 20px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.search button:hover img {
+    opacity: 1;
+}
+
+.copy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.copy a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.copy a:hover {
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.copy .text {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+.footerNav nav {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 40px 0 20px;
+    }
+
+    .container {
+        gap: 30px;
+    }
+
+    .footerNav {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .search {
+        max-width: 100%;
+    }
+
+    .copy {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .footerNav nav ul li {
+        margin-bottom: 8px;
+    }
+
+    .footerNav nav h3 {
+        margin-bottom: 15px;
+    }
+}

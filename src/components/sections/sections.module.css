@@ -1,0 +1,125 @@
+/* SECTION-1 */
+.section1 {
+    display: flex;
+    align-items: center;
+    padding: 120px 0 100px;
+}
+
+.section1 .lang {
+    display: flex;
+    width: 392px;
+    min-width: 392px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+
+.section1 .lang a {
+    width: 184px;
+    height: 184px;
+    background: #fff;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, .1);
+    transition: 200ms all;
+}
+
+.section1 .lang a:hover {
+    transform: scale(1.05);
+}
+
+.section1 .inner {
+    margin-right: 150px;
+    width: 50%;
+    min-width: 392px;
+    margin-left: 50px;
+}
+
+.section1 .inner h3 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.section1 .inner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+
+/* SECTION-2 */
+.section2 {
+    background: #fff;
+    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, .1);
+    padding: 50px 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    border-radius: 4px;
+}
+
+.section2 .icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #f4f5f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+    color: #d7dbe7;
+}
+
+.section2 p {
+    margin-bottom: 30px;
+    text-align: center;
+    max-width: 60%;
+    font-size: 22px;
+}
+
+/* SECTION-3 */
+.section3 {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, .1);
+    padding: 30px;
+}
+
+.section3 > div {
+    width: 50%;
+    min-width: 50%;
+}
+
+.section3 .text h3 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.section3 .text p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #111;
+}
+
+.section3 .text .btn {
+    margin-top: 50px;
+}
+
+.section3 .image img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.btn {
+    composes: btn from '../banner/banner.module.css';
+}
+
+.colorGreen {
+    background: #36855b;
+} 

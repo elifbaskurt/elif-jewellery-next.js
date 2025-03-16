@@ -1,0 +1,29 @@
+.texttext {
+    margin: 40px 45px;
+    padding: 20px 40px;
+}
+
+.text {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 25px 20px;
+    box-shadow: 0px 0px 18px 0 #c2b7b710;
+    transition: 0.3s ease box-shadow;
+    cursor: pointer;
+}
+
+.text:hover {
+    box-shadow: 0px 0px 5px 0 #0000002c;
+}
+
+.textHeader {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.textP {
+    line-height: 1.6;
+    color: #666;
+    font-size: 16px;
+} 

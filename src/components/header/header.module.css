@@ -1,0 +1,71 @@
+.menu {
+    background: transparent;
+    height: 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    transition: all 0.3s ease;
+}
+
+.menu.scrolled {
+    background: linear-gradient(170deg, #212A39, #181E28);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.menu:not(.scrolled) {
+    background: #212A39;
+}
+
+.menu ol {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.menu > ol {
+    max-width: 1000px;
+    padding: 0 2rem;
+    display: flex;
+}
+
+.menu > ol > .menuItem {
+    flex: 1;
+    padding: 0.75rem 0;
+}
+
+.menu > ol > .menuItem:after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    bottom: 5px;
+    left: calc(50% - 2px);
+    background: #344316;
+    will-change: transform;
+    transform: scale(0);
+    transition: transform 0.2s ease;
+}
+
+.menu > ol > .menuItem:hover:after {
+    transform: scale(1);
+}
+
+.menuItem {
+    position: relative;
+    line-height: 2.5rem;
+    text-align: center;
+}
+
+.menuItem a {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1rem;
+} 

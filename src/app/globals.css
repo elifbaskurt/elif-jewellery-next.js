@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -19,24 +21,63 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  line-height: 1px;
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  text-decoration: none;
+  border-collapse: collapse;
+  border: 0;
+  list-style: none;
+}
+
+*:focus {
+  outline: 0;
 }
 
 a {
   color: inherit;
-  text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+/* Header'ın fixed pozisyonundan dolayı içeriğin üst kısmına padding ekleyelim */
+main {
+  padding-top: 4rem; /* header yüksekliği kadar */
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.scroll-animation {
+  opacity: 0;
+  transform: translateY(100px);
+}
+
+.scroll-animation.visible {
+  animation: slideUp 0.8s ease forwards;
 }
