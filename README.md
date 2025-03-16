@@ -6,7 +6,6 @@
 
 A modern and elegant jewelry website built with Next.js, designed to showcase luxury and sophistication. This project provides a seamless user experience with a fully responsive design, high-performance features, and smooth navigation.
 
-![Elif Jewellery](public/preview.png)
 
 ## ✨ Features
 
@@ -16,12 +15,6 @@ A modern and elegant jewelry website built with Next.js, designed to showcase lu
 - **📧 Contact Form:** Easily accessible contact page for inquiries
 - **📱 Social Media Integration:** Links to Instagram, Facebook, and Twitter
 
-## 📄 Pages
-
-- **🏠 Home:** Elegant introduction with brand identity
-- **💎 Products:** Showcasing featured jewelry pieces
-- **📖 About:** Story and vision of Elif Jewellery
-- **📞 Contact:** Contact form and customer support information
 
 ## 🛠️ Technologies Used
 
