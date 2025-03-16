@@ -2,7 +2,7 @@
 ### 📜 **README.md** - Elif Jewellery (Next.js)
 
 ```markdown
-# 💎 Elif Jewellery - Next.js
+
 
 A modern and elegant jewelry website built with Next.js, designed to showcase luxury and sophistication. This project provides a seamless user experience with a fully responsive design, high-performance features, and smooth navigation.
 
